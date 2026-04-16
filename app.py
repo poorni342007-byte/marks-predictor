@@ -1,5 +1,5 @@
 import streamlit as st
-from sklearn.externals import joblib
+import joblib
 
 # Load the trained model
 model = joblib.load("model.pk")
